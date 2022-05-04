@@ -1,0 +1,33 @@
+#iframe-page {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+main {
+  position: relative;
+  flex-grow: 1;
+}
+
+header, footer, nav {
+  font-size: 24px;
+  padding: 14px;
+  color: white;
+}
+
+header {
+  background-color: crimson;
+}
+
+nav {
+  background-color: blue;
+}
+
+footer {
+  background-color: gray;
+}
+
+#content {
+  display: flex;
+  flex: 1;
+}
